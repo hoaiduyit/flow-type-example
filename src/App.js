@@ -2,7 +2,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import { BasicType } from "./components/examples";
+import { BasicType, MyType } from "./components/examples";
 
 class App extends React.Component<*> {
   render() {
@@ -14,6 +14,7 @@ class App extends React.Component<*> {
         </header>
         <div className="App-intro">
           <BasicType />
+          <MyType />
         </div>
       </div>
     );

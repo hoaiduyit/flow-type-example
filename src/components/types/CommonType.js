@@ -10,9 +10,9 @@ type Props = {
 export default (props: Props) => {
   return (
     <div>
-      <div>Number: {props.number}</div>
-      <div>String: {props.string}</div>
-      <div>{props.boolean ? "true" : "false"}</div>
+      <div>Number: {props.number} (number only)</div>
+      <div>String: {props.string} (text only)</div>
+      <div>{props.boolean ? "true" : "false"} (boolean type only)</div>
     </div>
   );
 };

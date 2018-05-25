@@ -1,4 +1,5 @@
 import BasicType from "./BasicType";
+import MyType from "./MyType";
 
-export default { BasicType };
-export { BasicType };
+export default { BasicType, MyType };
+export { BasicType, MyType };
